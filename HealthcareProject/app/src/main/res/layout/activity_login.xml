@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    android:paddingLeft="50dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="298dp"
+        android:layout_height="68dp"
+        android:text="24/7 Healthcare"
+        android:textColor="#9C27B0"
+        android:textSize="34sp"
+        android:textStyle="bold"
+
+        tools:text="24*7 Healthcare" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLoginEmail"
+        android:layout_width="324dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+
+        android:hint="Username"
+
+        android:inputType="text"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/editTextRegLoginPassword"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="302dp"
+        android:layout_height="46dp"
+        android:gravity="center_horizontal"
+        android:text="Register for new User"
+        android:textColor="@color/white" />
+
+</LinearLayout>
